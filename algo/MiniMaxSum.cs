@@ -2,6 +2,17 @@ namespace consoleApp1.algo
 {
     public class MiniMaxSum
     {
+        /*
+            MiniMaxSum mms = new MiniMaxSum();
+            List<int> a = new List<int> (){
+                {256741038},
+                {623958417},
+                {467905213},
+                {714532089},
+                {938071625},
+            };
+            mms.getMaxSum(a);
+        */
         public void getMaxSum(List<int> arr){
 
             List<ulong> resultList = new List<ulong>();

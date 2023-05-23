@@ -7,15 +7,8 @@ namespace consoleApp1{
         
         static void Main(string[] args)
         {
-            MiniMaxSum mms = new MiniMaxSum();
-            List<int> a = new List<int> (){
-                {256741038},
-                {623958417},
-                {467905213},
-                {714532089},
-                {938071625},
-            };
-            mms.getMaxSum(a);
+            TimeNoSig tns = new TimeNoSig();
+            tns.tns("07:05:45PM");
         }
 
     }
