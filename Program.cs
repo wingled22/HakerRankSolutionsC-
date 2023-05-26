@@ -7,9 +7,12 @@ namespace consoleApp1{
         
         static void Main(string[] args)
         {
-            TimeNoSig tns = new TimeNoSig();
-            tns.tns("07:05:45PM");
-        }
+            EvenOddQueries e = new EvenOddQueries();
+            
+
+            //Console.WriteLine(String.Join("\n", e.solve(new List<int> { 3, 2, 7, }, new List<List<int>> { new List<int> { 1, 2 }, new List<int> { 2, 3 } })));
+            Console.WriteLine(String.Join("\n", e.solve(new List<int> { 5, 3, 2,7,9,1,4,6  }, new List<List<int>> { new List<int> { 6, 8 }, new List<int> { 1, 3 } })));
+        }   
 
     }
 }
